@@ -7,8 +7,11 @@ import QuestionAnswerIcon from "@mui/icons-material/QuestionAnswer";
 function Header() {
   return (
     <div className="header">
+
       <PersonIcon />
+
       <img
+        className="header__logo"
         src={tinder}
         alt="tinder logo"
       />
