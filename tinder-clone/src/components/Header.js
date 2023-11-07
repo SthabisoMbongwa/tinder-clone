@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="header">
 
-      <PersonIcon />
+      <PersonIcon fontSize="large"/>
 
       <img
         className="header__logo"
@@ -16,7 +16,7 @@ function Header() {
         alt="tinder logo"
       />
 
-      <QuestionAnswerIcon />
+      <QuestionAnswerIcon fontSize="large"/>
     </div>
   );
 }
