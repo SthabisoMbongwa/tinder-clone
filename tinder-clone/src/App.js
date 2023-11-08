@@ -1,23 +1,25 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import {Routes, Route} from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Chart from "./components/Chart";
 
 function App() {
   return (
     <div className="App">
-     {/* Header */}
-     <Header />
-     <Routes>
-      <Route path='/'><h1>I am the chat page</h1></Route>
+      {/* Header */}
+      <Header />
+      <Routes>
+        <Route path="/chat" element={<Chart />} />
 
-      <Route path='/chat'><h1>I am homepage</h1></Route>
-     </Routes>
-     {/* Tinder Cards */}
-     {/* Buttons below tinder cards */}
+        <Route path="/" element={<Home />} />
+      </Routes>
+      {/* Tinder Cards */}
+      {/* Buttons below tinder cards */}
 
-     {/* Chats screen */} 
-     {/* Individual chat screen */}
+      {/* Chats screen */}
+      {/* Individual chat screen */}
     </div>
   );
 }
