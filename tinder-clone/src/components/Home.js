@@ -1,8 +1,9 @@
 import React from 'react';
+import TinderCards from './TinderCards';
 
 const Home = () => {
     return(
-        <h1>I am the chat page</h1> 
+        <TinderCards />
     );
 }
 

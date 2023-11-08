@@ -14,6 +14,8 @@ function App() {
         <Route path="/chat" element={<Chart />} />
 
         <Route path="/" element={<Home />} />
+              
+       
       </Routes>
       {/* Tinder Cards */}
       {/* Buttons below tinder cards */}
